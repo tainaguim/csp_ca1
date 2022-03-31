@@ -6,34 +6,49 @@
     <meta charset="utf-8">
     <meta name="author" content="Taina">
     <meta name="description" content="A copy of a Wikipedia article about Ipatinga, a city in Minas Gerais">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Ipatinga: Wiki Article</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">Ipatinga</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#1">About</a></li>
+                    <li><a href="#2">Industry</a></li>
+                    <li><a href="#3">Environment</a></li>
+                    <li><a href="#4">Sports</a></li>
+                    <li><a href="#5">Statistics</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+              
 
 </head>
 <link href="https://en.wikipedia.org/wiki/Ipatinga#Industry">
 
 
-<body>
-    <header>
-
-        <nav>
-            <ul>
-
-                <li><a href="#1">Ipatinga</a></li>
-                <li><a href="#2">Industry</a></li>
-                <li><a href="#3">Environment</a></li>
-                <li><a href="#4">Sports</a></li>
-                <li><a href="#5">Statistics</a></li>
-
-            </ul>
-        </nav>
-    </header>
-
     <main>
 
         <section>
-         <!-- About Ipatinga -->
-            <h1>Ipatinga</h1>
+         <!-- First Container -->
+            <div class="container-fluid bg-1 text-center">
+                <h3 class="margin">About</h3>
 
 
             <p id="1"><strong>Ipatinga</strong> is a <a href="https://en.wikipedia.org/wiki/Municipalities_of_Brazil">municipality</a> in eastern 
@@ -54,10 +69,7 @@
 
 
             <figure>
-                <br>
-
-
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Avenida_Pedro_Linhares_Gomes_e_Usiminas_ao_fundo%2C_Ipatinga_MG.JPG"
+                <br> <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Avenida_Pedro_Linhares_Gomes_e_Usiminas_ao_fundo%2C_Ipatinga_MG.JPG"
                     alt="The Pedro Linhares Gomes Avenue with the Usiminas in the background, in Ipatinga, Minas Gerais, Brazil."
                     {width=30px height=300px}>
                 <figcaption>
@@ -90,10 +102,11 @@
             </figure>
 
 
-            <h1>Industry</h1> <!-- About the Industry in Ipatinga -->
+           <!-- Second Container -->
+           <div class="container-fluid bg-2 text-center">
+            <h3 class="margin">Industry</h3>
             <p id="2">It is the most important city of the Vale do Aço metropolitan area and it is the headquarters
-                of
-                one of the largest steel making complexes in Brazil, Usina Siderúrgica de Minas Gerais – <a href="https://en.wikipedia.org/wiki/Usiminas">Usiminas</a>.<sup>[5]</sup>
+                of one of the largest steel making complexes in Brazil, Usina Siderúrgica de Minas Gerais – <a href="https://en.wikipedia.org/wiki/Usiminas">Usiminas</a>.<sup>[5]</sup>
 
             <figure>
                 <br>
@@ -107,7 +120,10 @@
 
             </p>
 
-            <h1>Environment</h1>
+            <!-- Third Container -->
+           <div class="container-fluid bg-2 text-center">
+            <h3 class="margin">Environment</h3>
+            
 
             <p id="3">Despite the steel complex's presence, Ipatinga has 127 m<sup>2</sup> of green area per inhabitant,
                 one of the highest averages in the country. Ipanema park, Ipatinga's main park, has about one million
@@ -116,7 +132,9 @@
 
             </p>
 
-            <h1> Sports </h1> <!-- Ipatinga Sport Club -->
+            <!-- Fourth Container -->
+           <div class="container-fluid bg-2 text-center">
+            <h3 class="margin">Sports</h3>
 
             <p id="4"><a href="https://en.wikipedia.org/wiki/Ipatinga_Futebol_Clube">Futebol Clube</a>, the city's
                 main football club won the <a href="https://en.wikipedia.org/wiki/Campeonato_Mineiro">championship</a>
@@ -128,7 +146,9 @@
                 Gerais.<sup>[7]</sup> In 2013 this team changed Ipatinga to Betim.
             </p>
 
-            <h1>Statistics</h1> <!-- Stastistics about Ipatinga -->
+           <!-- Fifith Container -->
+           <div class="container-fluid bg-2 text-center">
+            <h3 class="margin">Statistics</h3>
 
             <p id="5">
             <table class="table">
@@ -194,3 +214,4 @@
 <p>Powered by <a title="Taina Goncalves" class="">Taina Goncalves</a></p>
 <p>References by <a title="Wikipedia" class=""><a href="https://en.wikipedia.org/wiki/Ipatinga">Wikipedia</a></a></p>
 <p>References by <a title="Bootstrap" class=""><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap</a></a></p>
+<p>References by <a title="W3 Schools - Bootstrap" class=""><a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">Bootstrap Theme</a></a></p>
